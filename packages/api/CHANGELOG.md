@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/api`
 
+## 3.3.3
+
+### Patch Changes
+
+- 86bb7d9: Adjust build files
+
 ## 3.3.2
 
 ### Patch Changes

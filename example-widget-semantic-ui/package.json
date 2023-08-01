@@ -6,9 +6,9 @@
   "license": "Apache-2.0",
   "private": true,
   "dependencies": {
-    "@beeper/matrix-widget-toolkit-api": "3.3.2",
-    "@beeper/matrix-widget-toolkit-react": "1.0.8",
-    "@beeper/matrix-widget-toolkit-semantic-ui": "1.0.8",
+    "@beeper/matrix-widget-toolkit-api": "3.3.3",
+    "@beeper/matrix-widget-toolkit-react": "1.0.9",
+    "@beeper/matrix-widget-toolkit-semantic-ui": "1.0.9",
     "@reduxjs/toolkit": "^1.9.5",
     "i18next": "^22.5.1",
     "i18next-chained-backend": "^4.3.0",
@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^6.4.5",
-    "@beeper/matrix-widget-toolkit-testing": "2.3.3",
+    "@beeper/matrix-widget-toolkit-testing": "2.3.4",
     "@semantic-ui-react/craco-less": "^3.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",

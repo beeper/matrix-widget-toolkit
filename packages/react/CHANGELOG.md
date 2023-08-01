@@ -1,5 +1,13 @@
 # `@matrix-widget-toolkit/react`
 
+## 1.0.9
+
+### Patch Changes
+
+- 86bb7d9: Adjust build files
+- Updated dependencies [86bb7d9]
+  - @beeper/matrix-widget-toolkit-api@3.3.3
+
 ## 1.0.8
 
 ### Patch Changes

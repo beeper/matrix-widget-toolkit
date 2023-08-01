@@ -1,5 +1,14 @@
 # `@matrix-widget-toolkit/mui`
 
+## 1.2.5
+
+### Patch Changes
+
+- 86bb7d9: Adjust build files
+- Updated dependencies [86bb7d9]
+  - @beeper/matrix-widget-toolkit-api@3.3.3
+  - @beeper/matrix-widget-toolkit-react@1.0.9
+
 ## 1.2.4
 
 ### Patch Changes

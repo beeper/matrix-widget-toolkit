@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/widget-server`
 
+## 1.0.5
+
+### Patch Changes
+
+- 86bb7d9: Adjust build files
+
 ## 1.0.4
 
 ### Patch Changes

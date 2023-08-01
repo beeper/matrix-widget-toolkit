@@ -1,5 +1,13 @@
 # `@matrix-widget-toolkit/testing`
 
+## 2.3.4
+
+### Patch Changes
+
+- 86bb7d9: Adjust build files
+- Updated dependencies [86bb7d9]
+  - @beeper/matrix-widget-toolkit-api@3.3.3
+
 ## 2.3.3
 
 ### Patch Changes
