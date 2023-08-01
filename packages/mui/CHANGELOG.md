@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/mui`
 
+## 1.2.4
+
+### Patch Changes
+
+- 94e2b97: Remove the addwidget text
+
 ## 1.2.3
 
 ### Patch Changes

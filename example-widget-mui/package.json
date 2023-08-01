@@ -10,7 +10,7 @@
     "@mui/material": "^5.13.4",
     "@mui/utils": "^5.13.1",
     "@beeper/matrix-widget-toolkit-api": "3.3.2",
-    "@beeper/matrix-widget-toolkit-mui": "1.2.3",
+    "@beeper/matrix-widget-toolkit-mui": "1.2.4",
     "@beeper/matrix-widget-toolkit-react": "1.0.8",
     "@reduxjs/toolkit": "^1.9.5",
     "i18next": "^22.5.1",
