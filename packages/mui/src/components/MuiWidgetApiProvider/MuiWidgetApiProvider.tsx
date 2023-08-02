@@ -15,7 +15,7 @@
  */
 
 import { WidgetApi, WidgetRegistration } from '@beeper/matrix-widget-toolkit-api';
-  import { WidgetApiProvider } from '@beeper/matrix-widget-toolkit-react';
+import { WidgetApiProvider } from '@beeper/matrix-widget-toolkit-react';
 import { PropsWithChildren, ReactElement } from 'react';
 import { LoadingView } from '../LoadingView';
 import { MissingCapabilitiesError } from '../MissingCapabilitiesError';
