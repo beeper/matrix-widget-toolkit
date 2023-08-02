@@ -20,5 +20,9 @@
  *          our CSP by default.
  */
 export function getNonce(): string | undefined {
+  if (typeof window === 'undefined') {
+    return undefined;
+  }
+
   return (window as unknown as Record<string, string>)['NONCE'];
 }

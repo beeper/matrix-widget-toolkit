@@ -37,7 +37,9 @@ export type WidgetApiParameters = {
  * @returns The parameters required for initializing the widget API.
  */
 export function extractWidgetApiParameters(): WidgetApiParameters {
-  const query = parse(window.location.search, { ignoreQueryPrefix: true }) as {
+  const queryString =
+    typeof window !== 'undefined' ? window.location.search : '';
+  const query = parse(queryString, { ignoreQueryPrefix: true }) as {
     parentUrl?: string;
     widgetId?: string;
   };
@@ -64,13 +66,14 @@ export function extractWidgetApiParameters(): WidgetApiParameters {
  * @returns The all unprocessed raw widget parameters.
  */
 export function extractRawWidgetParameters(): Record<string, string> {
-  const hash = window.location.hash.substring(
-    window.location.hash.indexOf('?') + 1
-  );
+  const queryString =
+    typeof window !== 'undefined' ? window.location.search : '';
+  const hashString = typeof window !== 'undefined' ? window.location.hash : '';
+  const hash = hashString.substring(hashString.indexOf('?') + 1);
   const params = {
     // TODO: Information are leaked to the server when transmitted via query parameters?
     // prefer to use hash instead of search
-    ...parse(window.location.search, { ignoreQueryPrefix: true }),
+    ...parse(queryString, { ignoreQueryPrefix: true }),
     ...parse(hash),
   };
 

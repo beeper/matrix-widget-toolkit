@@ -111,6 +111,7 @@ export function ThemeSelectionProvider({
     }
 
     const prefersColorSchemeDark =
+      typeof window !== 'undefined' &&
       window.matchMedia &&
       window.matchMedia('(prefers-color-scheme: dark)').matches;
 
