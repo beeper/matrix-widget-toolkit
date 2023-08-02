@@ -1,5 +1,14 @@
 # `@matrix-widget-toolkit/mui`
 
+## 1.2.6
+
+### Patch Changes
+
+- 0271d38: Fix NextJS compatability
+- Updated dependencies [0271d38]
+  - @beeper/matrix-widget-toolkit-api@3.3.4
+  - @beeper/matrix-widget-toolkit-react@1.0.10
+
 ## 1.2.5
 
 ### Patch Changes

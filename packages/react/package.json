@@ -1,6 +1,6 @@
 {
   "name": "@beeper/matrix-widget-toolkit-react",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A simplified layer on top of @matrix-widget-toolkit/api to use it in a React based widget.",
   "author": "Nordeck IT + Consulting GmbH",
   "license": "Apache-2.0",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@beeper/matrix-widget-api": "^1.5.0",
-    "@beeper/matrix-widget-toolkit-api": "^3.3.3",
+    "@beeper/matrix-widget-toolkit-api": "^3.3.4",
     "react": "^17.0.2",
     "react-error-boundary": "^3.1.4",
     "react-use": "^17.4.0"

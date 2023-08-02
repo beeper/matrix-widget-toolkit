@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/api`
 
+## 3.3.4
+
+### Patch Changes
+
+- 0271d38: Fix NextJS compatability
+
 ## 3.3.3
 
 ### Patch Changes
