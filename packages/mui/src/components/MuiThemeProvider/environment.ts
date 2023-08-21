@@ -23,7 +23,10 @@ declare global {
 const getWindowEnvironment = () => {
   let environment: { [key: string]: string | undefined } = {};
 
-  if (typeof window.__ENVIRONMENT__ === 'string') {
+  if (
+    typeof window !== 'undefined' &&
+    typeof window.__ENVIRONMENT__ === 'string'
+  ) {
     const encoded = window.__ENVIRONMENT__;
     // check if mustache placeholder hasn't been replaced for some reason.
     if (!encoded.match(/^{{.*}}$/)) {
