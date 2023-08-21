@@ -1,5 +1,11 @@
 # `@matrix-widget-toolkit/api`
 
+## 3.3.5
+
+### Patch Changes
+
+- 7ef762e: Fix NextJS loading issue
+
 ## 3.3.4
 
 ### Patch Changes

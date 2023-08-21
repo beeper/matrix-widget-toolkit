@@ -6,8 +6,8 @@
   "license": "Apache-2.0",
   "private": true,
   "dependencies": {
-    "@beeper/matrix-widget-toolkit-api": "3.3.4",
-    "@beeper/matrix-widget-toolkit-react": "1.0.10",
+    "@beeper/matrix-widget-toolkit-api": "3.3.5",
+    "@beeper/matrix-widget-toolkit-react": "1.0.11",
     "@beeper/matrix-widget-toolkit-semantic-ui": "1.0.9",
     "@reduxjs/toolkit": "^1.9.5",
     "i18next": "^22.5.1",

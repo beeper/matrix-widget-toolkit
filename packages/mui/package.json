@@ -1,6 +1,6 @@
 {
   "name": "@beeper/matrix-widget-toolkit-mui",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A customized material-ui theme that matches the style of the Element Matrix client",
   "author": "Nordeck IT + Consulting GmbH",
   "license": "Apache-2.0",
@@ -38,8 +38,8 @@
     "generate-api-report": "tsc && api-extractor run --verbose --local"
   },
   "dependencies": {
-    "@beeper/matrix-widget-toolkit-api": "^3.3.4",
-    "@beeper/matrix-widget-toolkit-react": "^1.0.10",
+    "@beeper/matrix-widget-toolkit-api": "^3.3.5",
+    "@beeper/matrix-widget-toolkit-react": "^1.0.11",
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",

@@ -1,5 +1,13 @@
 # `@matrix-widget-toolkit/react`
 
+## 1.0.11
+
+### Patch Changes
+
+- 7ef762e: Fix NextJS loading issue
+- Updated dependencies [7ef762e]
+  - @beeper/matrix-widget-toolkit-api@3.3.5
+
 ## 1.0.10
 
 ### Patch Changes
