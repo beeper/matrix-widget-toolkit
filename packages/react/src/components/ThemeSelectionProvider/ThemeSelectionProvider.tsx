@@ -24,7 +24,8 @@ import {
   PropsWithChildren,
   ReactElement,
   useCallback,
-  useContext, useEffect,
+  useContext,
+  useEffect,
   useMemo,
   useState,
 } from 'react';
@@ -92,10 +93,9 @@ export type ThemeSelectionProviderProps = PropsWithChildren<{}>;
 export function ThemeSelectionProvider({
   children,
 }: ThemeSelectionProviderProps): ReactElement {
-
-  const [state, setState] = useState<{ theme: Theme | null; isModal: boolean | null }>({
-    theme: null,
-    isModal: null,
+  const [state, setState] = useState<{ theme: Theme; isModal: boolean }>({
+    theme: 'light',
+    isModal: false,
   });
 
   // useEffect is needed to make this run entirely client-side. Otherwise, NextJS will run it one time server-side before the widget runs this again, which causes the widget to show "Loading" indefinitely.
@@ -114,8 +114,8 @@ export function ThemeSelectionProvider({
       setState({ theme, isModal });
     } else {
       const prefersColorSchemeDark =
-          window.matchMedia &&
-          window.matchMedia('(prefers-color-scheme: dark)').matches;
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches;
 
       setState({ theme: prefersColorSchemeDark ? 'dark' : 'light', isModal });
     }
@@ -126,11 +126,11 @@ export function ThemeSelectionProvider({
   }, []);
 
   const context = useMemo(
-      () => ({
-        ...state,
-        setTheme,
-      }),
-      [state, setTheme]
+    () => ({
+      ...state,
+      setTheme,
+    }),
+    [state, setTheme]
   );
 
   return (
